@@ -187,6 +187,19 @@ button:focus {
   color: #00b4d9;
 }
 
+.test {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.language-icon {
+  height: 50px;
+  width: 50px;
+  margin-left: 5px;
+  margin-left: 5px;
+}
+
 .social-icon li {
   display: inline-block;
 }
@@ -335,7 +348,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .counter-section {
-  background: url(../img/background/bg-1.jpg);
+  background: url(../img/background/myself.jpg);
+  background-size: cover;
   overflow: hidden;
   position: relative;
 }
@@ -708,7 +722,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 3. Hero Area
 ========================================================================== */
 .hero-area-bg {
-  background: url(../img/hero-area.jpg) no-repeat;
+  background: url(../img/test2.jpg) no-repeat;
   background-size: cover;
 }
 
