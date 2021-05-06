@@ -793,6 +793,10 @@ a.back-to-top:hover, a.back-to-top:focus {
    ========================================================================== */
 #portfolios {
   background: #f2f2f2;
+  /* background: url(../img/background/myself.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: relative; */
 }
 
 #portfolios .mix {
@@ -1141,4 +1145,29 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 #copyright p a:hover {
   color: #00b4d9;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+}
+
+.contact-form-input {
+  width: 450px;
+  border: 1px solid #e1e1e1;
+  margin-bottom: 7px;
+}
+
+.contact-form-button {
+  width: 450px;
+  background-color: #02B4D9;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+.contact-form-button:hover {
+  background-color: #06d1fa;
+  transition: 0.3s;
 }
