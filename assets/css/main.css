@@ -995,7 +995,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .contact-form-area {
   background: #fff;
-  box-shadow: 0 0 30px #ededed;
+  box-shadow: 0 0 5px #ededed;
   padding: 60px 40px;
 }
 
@@ -1044,6 +1044,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 #contact {
   position: relative;
   overflow: hidden;
+  background: url(../img/background/myself.jpg);
 }
 
 #contact #contactForm {
